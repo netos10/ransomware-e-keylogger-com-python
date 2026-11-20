@@ -15,7 +15,8 @@ FERRAMENTAS:
 **1. RANSOMWARE:**
 
 É um tipo de malware que bloqueia o acesso a arquivos e sistemas por criptografia e exige pagamento para um resgate. Eu criei uma pasta "test_files" e ela contém 2 arquivos .txt com informações aleatórias (apenas para serem criptografadas). Dentro do código nós temos algumas etapas obrigatórias, como:
-  **1 GERAR CHAVE:** temos a ```def gerar_chave()``` gera uma chave criptográfica com ```Fernet.generate_key(```) e salva esses bytes no arquivo ```chave.key```.
+
+**1 GERAR CHAVE:** temos a ```def gerar_chave()``` gera uma chave criptográfica com ```Fernet.generate_key(```) e salva esses bytes no arquivo ```chave.key```.
   
  **2 CARREGAR CHAVE:** ```def carregar_chave()``` abre ```chave.key``` e retorna o conteúdo da chave para ser usado na criptografia.
   
